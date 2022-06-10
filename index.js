@@ -5,8 +5,7 @@ function writeCards(namesArray, event){
         thankYouCards.push(`Thank you, ${namesArray[i]}, for the wonderful ${event} gift!`);
     }
     return thankYouCards
-} 
-
+}
 function countDown( startingNumber){
     while( startingNumber > 0){
         console.log(startingNumber);
